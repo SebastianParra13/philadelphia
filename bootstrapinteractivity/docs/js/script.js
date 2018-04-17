@@ -12,13 +12,6 @@ $(function() {
       $('header nav').removeClass('inbody');
     }
 
-    // Animate Media Layout when it passes scroll
-    $('#layout-media .col-lg-8').css('visibility: hidden;');
-
-    if(hash === '#layout-media') {
-      $('#layout-media .col-lg-8').addClass('animated fadeInRight');
-    }
-
   });
 
   // Modifies modal and injects high resolution image
